@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-v-6o9$1z@7=5ax_b133x+^zm(k(3mq2#m72!$a3q(gd$2ve$na
 DEBUG = True
 
 ALLOWED_HOSTS = ['.vercel.app', '.now.sh', 'localhost']
+WSGI_APPLICATION = 'czarny_kot.wsgi.app'
 
 
 # Application definition
